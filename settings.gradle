@@ -1,0 +1,2 @@
+rootProject.name = "Best Locations to Visit"
+include ':app'

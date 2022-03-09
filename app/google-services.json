@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "8659498556",
+    "project_id": "best-location-app",
+    "storage_bucket": "best-location-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8659498556:android:1dd09fec538ed17047f539",
+        "android_client_info": {
+          "package_name": "com.example.bestlocationstovisit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8659498556-u4gtv2vjga4h3qdisj8ml9hil216m5fd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bestlocationstovisit",
+            "certificate_hash": "6807ec46a5e0dde6cd2ed2ea6dac1e64d6f532e1"
+          }
+        },
+        {
+          "client_id": "8659498556-a8v7pct3ncl8t4hpvquacncbrpvvtfd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzx98eiDoRpHxKoK2q0YNh9Ubm31YNdG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8659498556-a8v7pct3ncl8t4hpvquacncbrpvvtfd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8659498556:android:6ab2856bb251aad847f539",
+        "android_client_info": {
+          "package_name": "com.udacity.project4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8659498556-a8v7pct3ncl8t4hpvquacncbrpvvtfd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzx98eiDoRpHxKoK2q0YNh9Ubm31YNdG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8659498556-a8v7pct3ncl8t4hpvquacncbrpvvtfd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

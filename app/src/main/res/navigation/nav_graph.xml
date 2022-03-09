@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/placesListFragment">
+
+    <fragment
+        android:id="@+id/createLocationFragment"
+        android:name="com.example.bestlocationstovisit.createlocation.CreateLocationFragment"
+        android:label="create_location_fragment"
+        tools:layout="@layout/create_location_fragment" >
+        <argument
+            android:name="latittude"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="longtittude"
+            app:argType="string"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_createLocationFragment_to_selectLocationFragment"
+            app:destination="@id/selectLocationFragment" />
+        <action
+            android:id="@+id/action_createLocationFragment_to_placesListFragment"
+            app:destination="@id/placesListFragment"
+            app:popUpTo="@id/placesListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectLocationFragment"
+        android:name="com.example.bestlocationstovisit.createlocation.selectlocation.SelectLocationFragment"
+        android:label="SelectLocationFragment" >
+        <action
+            android:id="@+id/action_selectLocationFragment_to_createLocationFragment"
+            app:destination="@id/createLocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/placesListFragment"
+        android:name="com.example.bestlocationstovisit.mainview.PlacesListFragment"
+        android:label="PlacesListFragment" >
+        <action
+            android:id="@+id/action_placesListFragment_to_createLocationFragment"
+            app:destination="@id/createLocationFragment" />
+        <action
+            android:id="@+id/action_placesListFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.bestlocationstovisit.detailsFragment.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="selectedPlace"
+            app:argType="com.example.bestlocationstovisit.api.domain.Place" />
+    </fragment>
+</navigation>

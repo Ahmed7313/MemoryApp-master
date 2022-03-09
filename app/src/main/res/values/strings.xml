@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Memory Saver</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="place_title">Add Place Name here</string>
+    <string name="place_statue">Add Place open and close time</string>
+    <string name="place_description">Add the description of the Place here</string>
+    <string name="place_location">Place Location</string>
+    <string name="place_details">Add Why you want to remember this memory</string>
+    <string name="dropped_pin">Dropped Pin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="permission_denied_explanation">You need to grant location permission in order to select the location.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">settings</string>
+    <string name="logout">Log out</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid map</string>
+    <string name="satellite_map">Satellite map</string>
+    <string name="terrain_map">Terrain map</string>
+    <string name="save">save</string>
+    <string name="very_long_text">"The library is included in Maven Central Repository, so just add this dependency to your module level gradle.build:  "</string>
+    <string name="start_adding_memories_now">Start adding memories now</string>
+</resources>
